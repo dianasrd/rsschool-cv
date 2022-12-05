@@ -6,7 +6,7 @@ ___
 **Phone:** +37529 7337512
 **E-mail:** dianasrd@gmail.com
 [**LinkedIn**](https://www.linkedin.com/feed/) 
-____
+___
 
 ### About myself:
 Worked as a content-manager in a private company last 5 years. My responsibilities were next:
@@ -14,14 +14,14 @@ Worked as a content-manager in a private company last 5 years. My responsibiliti
 * Update prices according to suppliers price lists
 * Competitor analysis
 * Work with programmers
-____
+___
 
 ### Skills:
 * HTML5, CSS3
 * 1C, Bitrix
 * VS Code
 * Adobe Photoshop, Figma
-____
+___
 
 ### Code example:
 
@@ -44,5 +44,5 @@ ___
 ### Languages:
 
 English    |  Intermediate
------------|:--------------
+-----------|:-------------
 French     |   Basic
