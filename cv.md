@@ -3,9 +3,11 @@
 ___
 
 ### Personal information:
-**Phone:** +37529 7337512
-**E-mail:** dianasrd@gmail.com
-[**LinkedIn**](https://www.linkedin.com/feed/) 
+ **Phone:** +37529 7337512
+
+ **E-mail:** dianasrd@gmail.com
+ 
+ [**LinkedIn**](https://www.linkedin.com/feed/) 
 ___
 
 ### About myself:
@@ -25,19 +27,31 @@ ___
 
 ### Code example:
 
-```<!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>Пример веб-страницы</title>
- </head>
- <body>
-  <h1>Заголовок</h1>
-  <!-- Комментарий -->
-  <p>Первый абзац.</p>
-  <p>Второй абзац.</p>
- </body>
-</html>
+```<?php
+$source = file_get_contents('example.php');
+$tokens = token_get_all($source);
+
+foreach ($tokens as $token) {
+   if (is_string($token)) {
+       // простая однабуквенная лексема
+       echo $token;
+   } else {
+       // массив с лексемой
+       list($id, $text) = $token;
+
+       switch ($id) {
+           case T_DOC_COMMENT:
+               // нет действий для комментариев
+               break;
+
+           default:
+               // все остальное -> выводим как есть
+               echo $text;
+               break;
+       }
+   }
+}
+?>
 ```
 ___
 
