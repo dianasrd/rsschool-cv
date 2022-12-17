@@ -71,10 +71,35 @@ li a {
 }
 li a:hover {
     color: blueviolet;
-    font-weight: ;
 }
 h2 {
     margin-top: 30px;
+}
+.example img {
+    display: flex;
+    width: 250px;
+    height: auto;
+}
+.example a {
+    justify-content: space-around;
+    margin: 10px;
+}
+.cont_examle {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont_examle a {
+    margin: 10px;
+}
+.coming_soon {
+    width: 250px;
+    height: auto;
+    border: 1px solid blueviolet;
+    margin: 10px;
+    text-align: center;
+}
+.cont_examle div {
+    font-weight: bolder;
 }
 
 /*footer*/
